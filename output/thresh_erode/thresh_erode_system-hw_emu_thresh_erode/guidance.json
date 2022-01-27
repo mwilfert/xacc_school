@@ -1,0 +1,36 @@
+{
+ "session": {
+  "name": "thresh_erode_system-hw_emu_thresh_erode",
+  "uuid": "79b66f51-af39-4e8b-809a-879889a13bc0",
+  "description": "Vitis IDE session thresh_erode_system-hw_emu_thresh_erode",
+  "timestamp": "0",
+  "report_file": {
+   "scheme": "FILE",
+   "host": "",
+   "port": 0,
+   "path": "/home/centos/workspace_project/thresh_erode/Emulation-HW/thresh_erode_system-hw_emu_thresh_erode/guidance.html",
+   "query": "",
+   "fragment": "",
+   "media_type": "",
+   "encoding": "",
+   "data": ""
+  },
+  "proto_file": {
+   "scheme": "FILE",
+   "host": "",
+   "port": 0,
+   "path": "/home/centos/workspace_project/thresh_erode/Emulation-HW/thresh_erode_system-hw_emu_thresh_erode/guidance.pb",
+   "query": "",
+   "fragment": "",
+   "media_type": "",
+   "encoding": "",
+   "data": ""
+  },
+  "build_target": "",
+  "config_files": []
+ },
+ "violation_count": 0,
+ "waived_count": 0,
+ "affirmation_count": 0
+}
+
