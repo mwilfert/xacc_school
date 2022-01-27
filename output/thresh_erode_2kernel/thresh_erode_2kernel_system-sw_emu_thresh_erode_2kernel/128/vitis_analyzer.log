@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vitis Analyzer v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# 
+# Start of session at: Thu Jan 27 15:01:12 2022
+# Process ID: 28455
+# Current directory: /home/centos/workspace_project/thresh_erode_2kernel/Emulation-SW/thresh_erode_2kernel_system-sw_emu_thresh_erode_2kernel
+# Command line: vitis_analyzer /home/centos/workspace_project/thresh_erode_2kernel/Emulation-SW/thresh_erode_2kernel_system-sw_emu_thresh_erode_2kernel/xclbin.run_summary -listener
+# Log file: /home/centos/workspace_project/thresh_erode_2kernel/Emulation-SW/thresh_erode_2kernel_system-sw_emu_thresh_erode_2kernel/vitis_analyzer.log
+# Journal file: /home/centos/workspace_project/thresh_erode_2kernel/Emulation-SW/thresh_erode_2kernel_system-sw_emu_thresh_erode_2kernel/vitis_analyzer.jou
+#-----------------------------------------------------------
+start_gui
+create_project dummy
+exit
+INFO: [Common 17-206] Exiting vitis_analyzer at Thu Jan 27 15:02:20 2022...
