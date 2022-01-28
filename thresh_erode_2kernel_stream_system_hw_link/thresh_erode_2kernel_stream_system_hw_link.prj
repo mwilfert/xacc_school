@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ASCII"?>
+<hwlink:HwLinkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:hwlink="http://www.xilinx.com/acceleration/hwlink" name="thresh_erode_2kernel_stream_system_hw_link" platform="/home/centos/aws-fpga/Vitis/aws_platform/xilinx_aws-vu9p-f1_shell-v04261818_201920_2/xilinx_aws-vu9p-f1_shell-v04261818_201920_2.xpfm" systemProject="thresh_erode_2kernel_stream_system" cpu="pl">
+  <configuration name="Emulation-SW" id="com.xilinx.ide.accel.config.hwlink.sw_emu.267567680">
+    <configBuildOptions xsi:type="hwlink:LinkOptions">
+      <binaryContainers name="krnl_erosion">
+        <kernels name="erosion" projectName="thresh_erode_2kernel_stream_kernels">
+          <computeUnits name="erosion_1" slr="">
+            <args name="hls_in"/>
+            <args name="process_shape" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="height"/>
+            <args name="width"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="threshold_accel" projectName="thresh_erode_2kernel_stream_kernels">
+          <computeUnits name="threshold_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="hls_out"/>
+            <args name="thresh"/>
+            <args name="maxval"/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="hwlink:LinkOptions">
+      <binaryContainers name="krnl_erosion">
+        <kernels name="erosion" projectName="thresh_erode_2kernel_stream_kernels">
+          <computeUnits name="erosion_1" slr="">
+            <args name="hls_in"/>
+            <args name="process_shape" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="height"/>
+            <args name="width"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="threshold_accel" projectName="thresh_erode_2kernel_stream_kernels">
+          <computeUnits name="threshold_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="hls_out"/>
+            <args name="thresh"/>
+            <args name="maxval"/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </lastBuildOptions>
+  </configuration>
+  <configuration name="Emulation-HW" id="com.xilinx.ide.accel.config.hwlink.hw_emu.355300196">
+    <configBuildOptions xsi:type="hwlink:LinkOptions" target="hw_emu">
+      <binaryContainers name="krnl_erosion">
+        <kernels name="erosion" projectName="thresh_erode_2kernel_stream_kernels">
+          <computeUnits name="erosion_1" slr="">
+            <args name="hls_in"/>
+            <args name="process_shape" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="height"/>
+            <args name="width"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="threshold_accel" projectName="thresh_erode_2kernel_stream_kernels">
+          <computeUnits name="threshold_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="hls_out"/>
+            <args name="thresh"/>
+            <args name="maxval"/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </configBuildOptions>
+  </configuration>
+  <configuration name="Hardware" id="com.xilinx.ide.accel.config.hwlink.hw.365907415">
+    <configBuildOptions xsi:type="hwlink:LinkOptions" target="hw">
+      <binaryContainers name="krnl_erosion">
+        <kernels name="erosion" projectName="thresh_erode_2kernel_stream_kernels">
+          <computeUnits name="erosion_1" slr="">
+            <args name="hls_in"/>
+            <args name="process_shape" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="height"/>
+            <args name="width"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="threshold_accel" projectName="thresh_erode_2kernel_stream_kernels">
+          <computeUnits name="threshold_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="hls_out"/>
+            <args name="thresh"/>
+            <args name="maxval"/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </configBuildOptions>
+  </configuration>
+</hwlink:HwLinkProject>
